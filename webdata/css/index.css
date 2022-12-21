@@ -1,48 +1,40 @@
-body{
+body {
     background-color: rgb(22, 2, 36);
 }
+
 table {
-     table-layout: fixed;
-     width: 50%;
-     height: 90%;
-     color: rgb(254, 252, 252);
-     text-align: center;
- }
+    table-layout: fixed;
+    width: 80%;
+    height: 90%;
+    color: rgb(254, 252, 252);
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
 
- /*caption {
-     background: rgb(247, 207, 161);
-     caption-side: top;
-     text-align: center;
- }*/
+caption {
+    background: rgb(8, 107, 68);
+    caption-side: top;
+    text-align: center;
+}
+tbody {
+    background: rgb(5, 40, 5);
+}
 
- thead {
-     background: rgb(99, 4, 4);
-     color: aliceblue;
- }
+tfoot {
+    background: rgb(59, 55, 2);
+}
 
- tbody {
-     background: rgb(5, 40, 5);
- }
-
- tfoot {
-     background: rgb(59, 55, 2);
- }
-
-
- th {
-     text-align: center;
-     border-width: 5px;
-     color: aliceblue;
- }
-
- td {
-     border-collapse: collapse;
-     border: rgb(0, 8, 9) 56px;
-     border-radius: 50%;
-     border-style: inset;
-     text-align: center;
-     margin: 0 auto;
- }
- a{
+th {
     color: aliceblue;
- }
+    border-collapse: collapse;
+    border: rgb(180, 246, 255) 56px;
+    border-style: inset;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(63, 122, 95);
+}
+
+a {
+    color: aliceblue;
+}
