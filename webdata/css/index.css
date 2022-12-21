@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(22, 2, 36);
+}
+table {
+     table-layout: fixed;
+     width: 50%;
+     height: 90%;
+     color: rgb(254, 252, 252);
+     text-align: center;
+ }
+
+ /*caption {
+     background: rgb(247, 207, 161);
+     caption-side: top;
+     text-align: center;
+ }*/
+
+ thead {
+     background: rgb(99, 4, 4);
+     color: aliceblue;
+ }
+
+ tbody {
+     background: rgb(5, 40, 5);
+ }
+
+ tfoot {
+     background: rgb(59, 55, 2);
+ }
+
+
+ th {
+     text-align: center;
+     border-width: 5px;
+     color: aliceblue;
+ }
+
+ td {
+     border-collapse: collapse;
+     border: rgb(0, 8, 9) 56px;
+     border-radius: 50%;
+     border-style: inset;
+     text-align: center;
+     margin: 0 auto;
+ }
+ a{
+    color: aliceblue;
+ }
