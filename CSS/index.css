@@ -1,0 +1,38 @@
+body{
+    background-color: #feafaf;
+    text-align: center;
+}
+.area{
+    margin: 5%;
+}
+table {
+    width: 60%;
+    table-layout: fixed;
+    color: #000000;
+    margin: 0 auto;
+}
+.mytbody{
+    width: 15%;
+}
+.ttitle{
+    background-color: #ffecbb;
+}
+.num{
+    background-color: rgb(255, 255, 255);
+}
+ th {
+     text-align: center;
+     border-width: 5px;
+ }
+
+ td {
+     border-collapse: collapse;
+     border: rgb(0, 8, 9) 56px;
+     border-radius: 50%;
+     border-style: inset;
+     text-align: center;
+     margin: 0 auto;
+ }
+ .mythead2{
+    background-color: #c0c4cc;
+ }
