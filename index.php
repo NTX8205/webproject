@@ -1,6 +1,8 @@
 <?php
+
 include("./src/views/headers.php");
-?><div class="row area">
+?>
+<div class="row area">
     <div class="col-lg-6">
         <!--這裡要放圖-->
     </div>
