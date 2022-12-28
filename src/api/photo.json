@@ -1,0 +1,27 @@
+{
+  "status": 200,
+  "games": [
+    {
+      "name": "貓空看台北101",
+      "price": "https://goo.gl/maps/Jp75jWRo9E58wYWk8",
+      "category_id": "北部",
+      "link": "https://www.flickr.com/gp/152108920@N07/JFcC7sR904",
+      "img": "https://live.staticflickr.com/65535/52591249530_907e2d621c_w.jpg"
+    },
+    {
+      "name": "台中刑武所",
+      "price": "https://goo.gl/maps/SKx2mTHYQxGPAp3v9",
+      "category_id": "中部",
+      "link": "https://www.flickr.com/gp/152108920@N07/gN9f07sKdX",
+      "img": "https://live.staticflickr.com/65535/52592136100_0d1acb95cd_w.jpg"
+    },
+    {
+      "name": "嘉義觸口天長山龍隱寺",
+      "price": "https://goo.gl/maps/x4T39qKZTQqmeHfR7",
+      "category_id": "南部",
+      "link": "https://www.flickr.com/photos/152108920@N07/52538058748/in/album-72177720304141342/",
+      "img": "https://live.staticflickr.com/65535/52538058748_3ec920b382_w.jpg"
+    }
+  ],
+  "categories": ["北部", "中部", "南部"]
+}
