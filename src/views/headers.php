@@ -14,53 +14,46 @@
     </script>
     <link rel="stylesheet" href="./assets/CSS/index.css">
     <link rel="stylesheet" href="./assets/CSS/conduct.css">
-    <script src="./JS/list.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-default navbar-dark ">
-        <div class="container-fluid">
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#">旅遊指南</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php">旅遊指南</a>
+                        <a class="nav-link active" aria-current="page" href="#">首頁</a>
                     </li>
                     <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <a class="nav-link" href="">景點</a>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li class="dropdown-item">北部景點</li>
-                                <li class="dropdown-item">中部景點</li>
-                                <li class="dropdown-item">南部景點</li>
-                                <li class="dropdown-item">東部景點</li>
-                                <li class="dropdown-item">離島景點</li>
-                            </ul>
-                        </div>
+                        <a class="nav-link" href="#">美食</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">美食</a>
+                        <a class="nav-link">住宿</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">住宿</a>
+                        <a class="nav-link">旅遊相片</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">搜尋</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./photoshare/index.html">旅遊相片</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">留言板</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
+                            aria-expanded="false">景點</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">北部景點</a></li>
+                            <li><a class="dropdown-item" href="#">中部景點</a></li>
+                            <li><a class="dropdown-item" href="#">南部景點</a></li>
+                            <li><a class="dropdown-item" href="#">東部景點</a></li>
+                            <li><a class="dropdown-item" href="#">離島景點</a></li>
+                        </ul>
                     </li>
                 </ul>
+                <form role="search" action="POST">
+                    <input class="form-control" type="search" placeholder="搜尋" aria-label="Search">
+                </form>
             </div>
         </div>
     </nav>
