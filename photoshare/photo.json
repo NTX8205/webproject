@@ -2,94 +2,30 @@
     "status": 200,
     "games": [
         {
-            "name": "台北101",
-            "price": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57864.088258481264!2d121.55523279683266!3d24.982933152841113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa8389128349%3A0x211736b3fb76a84b!2zMTE25Y-w5YyX5biC5paH5bGx5Y2A6LKT56m6!5e0!3m2!1szh-TW!2stw!4v1672219810439!5m2!1szh-TW!2stw",
+            "name": "貓空看台北101",
+            "price": "https://goo.gl/maps/Jp75jWRo9E58wYWk8",
             "category_id": "北部",
             "link":"https://www.flickr.com/gp/152108920@N07/JFcC7sR904",
             "img": "https://live.staticflickr.com/65535/52591249530_907e2d621c_w.jpg"
         },
         {
-            "name": "廟宇文化",
-            "price": "廟宇文化很有趣，白天的彩色煙火，更是吸引人流",
-            "category_id": "街拍",
+            "name": "台中刑武所",
+            "price": "https://goo.gl/maps/SKx2mTHYQxGPAp3v9",
+            "category_id": "中部",
+            "link":"https://www.flickr.com/gp/152108920@N07/gN9f07sKdX",
+            "img": "https://live.staticflickr.com/65535/52592136100_0d1acb95cd_w.jpg"
+        },
+        {
+            "name": "嘉義觸口天長山龍隱寺",
+            "price": "https://goo.gl/maps/x4T39qKZTQqmeHfR7",
+            "category_id": "南部",
             "link":"https://www.flickr.com/photos/152108920@N07/52538058748/in/album-72177720304141342/",
             "img": "https://live.staticflickr.com/65535/52538058748_3ec920b382_w.jpg"
-        },
-        {
-            "name": "走吧，一起去旅行",
-            "price": "小孩子的旅行，是童年最美的回憶，手牽手去旅行",
-            "category_id": "街拍",
-            "link":"https://www.flickr.com/photos/152108920@N07/52537238962/in/album-72177720304141342/",
-            "img": "https://live.staticflickr.com/65535/52537238962_f2830f9cbb_w.jpg"
-        },
-        {
-            "name": "舞台故事",
-            "price": "每個舞台劇，都有它美妙的故事，他們的獨特，是練10年功換來的",
-            "category_id": "活動紀錄",
-            "link":"https://www.flickr.com/photos/152108920@N07/52541694115/in/album-72177720304200923/",
-            "img": "https://live.staticflickr.com/65535/52541694115_f493e18d55_w.jpg"
-        },
-        {
-            "name": "冷落舞台",
-            "price": "電影的種類，有喜有悲，在悲情舞台裡，是孤獨黑暗的環節",
-            "category_id": "活動紀錄",
-            "link":"https://www.flickr.com/photos/152108920@N07/52541213956/in/album-72177720304200923/",
-            "img": "https://live.staticflickr.com/65535/52541213956_0a60727ff7_w.jpg"
-        },
-        {
-            "name": "合力演出",
-            "price": "一部完美的劇，需要有良好的團隊合力演出，才能產出一齣好戲",
-            "category_id": "活動紀錄",
-            "link":"https://www.flickr.com/photos/152108920@N07/52541214471/in/album-72177720304200923/",
-            "img": "https://live.staticflickr.com/65535/52541214471_c0e551e6df_w.jpg"
-        },
-        {
-            "name": "人生時鐘",
-            "price": "在人生舞台上，時鐘默默著流動著，像極了車軌",
-            "category_id": "商品攝影",
-            "link":"https://www.flickr.com/photos/152108920@N07/52537789710/in/album-72177720304146359/",
-            "img": "https://live.staticflickr.com/65535/52537789710_30989ac521_w.jpg"
-        },
-        {
-            "name": "手做成就",
-            "price": "動手做的成就，是像彩色燈一樣那麼炫炮，成就是一件值得驕傲的事",
-            "category_id": "商品攝影",
-            "link":"https://www.flickr.com/photos/152108920@N07/52537316771/in/dateposted/",
-            "img": "https://live.staticflickr.com/65535/52537316771_869e22b66b_w.jpg"
-        },
-        {
-            "name": "攝影美感",
-            "price": "動手做的成就，是像彩色燈一樣那麼炫炮，成就是一件值得驕傲的事",
-            "category_id": "商品攝影",
-            "link":"https://www.flickr.com/photos/152108920@N07/52537316811/in/photostream/",
-            "img": "https://live.staticflickr.com/65535/52537316811_7a6d0f98d7_w.jpg"
-        },
-         {
-            "name": "勝利",
-            "price": "勝利的手勢，勝利的歡喜，勝利的驕傲",
-            "category_id": "兒童攝影",
-            "link":"https://www.flickr.com/gp/152108920@N07/2yF9t09986 ",
-            "img": "https://live.staticflickr.com/65535/51894634443_36130561cb_w.jpg" 
-        },
-        {
-            "name": "快樂學習",
-            "price": "學習可以是快樂的，兒童的學習如果是快樂的，那也是很好的學習方式",
-            "category_id": "兒童攝影",
-            "link":"https://www.flickr.com/gp/152108920@N07/8vHC6E7c95",
-            "img": "https://live.staticflickr.com/65535/51894880509_d257afe295_w.jpg"
-        },
-        {
-            "name": "親子關係",
-            "price": "陪伴兒童的每個生命過程，是培養親子關係的好方式",
-            "category_id": "兒童攝影",
-            "link":"https://www.flickr.com/gp/152108920@N07/q869Z8vrqf",
-            "img": "https://live.staticflickr.com/65535/51894543686_3e0e06c80e_w.jpg"
         }
     ],
     "categories": [
         "北部",
-        "活動紀錄",
-        "商品攝影",
-        "兒童攝影"
+        "中部",
+        "南部"
     ]
 }

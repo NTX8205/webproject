@@ -55,7 +55,7 @@
                         <a class="nav-link" href="">搜尋</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./photoshare/index.html">旅遊相片</a>
+                        <a class="nav-link" href="./photoshare/yitravelshare.php">嘉的旅遊相片</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">留言板</a>
