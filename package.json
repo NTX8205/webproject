@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "git-auto-pull": "^1.0.9"
+  }
+}
