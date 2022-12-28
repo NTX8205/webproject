@@ -1,0 +1,41 @@
+.card-body {
+    font-size: 25px;
+    color: black;
+}
+
+.he {
+    color: rgb(25, 104, 173);
+}
+
+h1,
+h5 {
+    font-weight: bold;
+}
+
+button {
+    margin: auto 10px;
+}
+
+.category-container {
+    border-color: rgb(16, 115, 113);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+p.myclock {
+    color: aliceblue !important;
+}
+
+footer {
+    color: aliceblue;
+}
+
+.card {
+    height: 550px;
+}
