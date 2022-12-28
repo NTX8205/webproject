@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="./CSS/conduct.css">
     <script src="./JS/list.js"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-md navbar-default navbar-dark ">
         <div class="container-fluid">
@@ -29,14 +31,19 @@
                         <a class="nav-link" aria-current="page" href="./index.php">旅遊指南</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">景點</a>
-                        <ul id="menu">
-                            <li>北部景點</li>
-                            <li>中部景點</li>
-                            <li>南部景點</li>
-                            <li>東部景點</li>
-                            <li>離島景點</li>
-                        </ul>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link" href="">景點</a>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li class="dropdown-item">北部景點</li>
+                                <li class="dropdown-item">中部景點</li>
+                                <li class="dropdown-item">南部景點</li>
+                                <li class="dropdown-item">東部景點</li>
+                                <li class="dropdown-item">離島景點</li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">美食</a>
@@ -52,7 +59,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">留言板</a>
-                    </li> 
+                    </li>
                 </ul>
             </div>
         </div>
@@ -64,10 +71,10 @@
         </div>
         <div class="col-lg-6">
             <div class="viewname">
-                   <!--景點名稱-->
+                <!--景點名稱-->
             </div>
             <div class="viewintroduce">
-                    <!--景點介紹-->
+                <!--景點介紹-->
             </div>
         </div>
     </div>
@@ -100,4 +107,5 @@
         </table>
     </div>
 </body>
+
 </html>
