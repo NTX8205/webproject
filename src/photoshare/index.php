@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>作品分享區</title>
+    <title>益嘉旅遊分享區</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="./photoshareindex.css">
     <link rel="stylesheet" href="../CSS/conduct.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-md navbar-default navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-default navbar-dark ">
         <div class="container-fluid">
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -33,7 +34,19 @@
                         <a class="nav-link" aria-current="page" href="../index.php">旅遊指南</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">景點</a>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link" href="">景點</a>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li class="dropdown-item">北部景點</li>
+                                <li class="dropdown-item">中部景點</li>
+                                <li class="dropdown-item">南部景點</li>
+                                <li class="dropdown-item">東部景點</li>
+                                <li class="dropdown-item">離島景點</li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">美食</a>
@@ -45,7 +58,7 @@
                         <a class="nav-link" href="">搜尋</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">旅遊相片</a>
+                        <a class="nav-link" href="../photoshare/yitravelshare.php">嘉的旅遊相片</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">留言板</a>
@@ -71,6 +84,10 @@
             </div>
         </div>
     </div>
-
+    <footer>
+        Copyright ©
+        <?php echo date("Y-m-d") ?> All Rights Reserved.<br>
+    </footer>
 </body>
+
 </html>
