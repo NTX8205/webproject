@@ -1,4 +1,4 @@
-var dataURL = "photo.json";
+var dataURL = "../../src/api/photo.json";
 
 $(document).ready(function () {
   getImage();
