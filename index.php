@@ -37,7 +37,7 @@
                         <a class="nav-link">住宿</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">旅遊相片</a>
+                        <a class="nav-link" href="./src/photoshare/index.php">旅遊相片</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
