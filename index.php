@@ -51,8 +51,9 @@
                         </ul>
                     </li>
                 </ul>
-                <form role="search" action="POST">
-                    <input class="form-control" type="search" placeholder="搜尋" aria-label="Search">
+                <form role="search" action="./src/controllers/search.php" method="GET" class="d-flex">
+                    <input class="form-control" type="search" placeholder="搜尋" aria-label="Search" name="search">
+                    <button class="btn btn-outline-success" type="submit">搜尋</button>
                 </form>
             </div>
         </div>
