@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Eighth navbar example">
+    <nav class="navbar navbar-expand-lg bg-light" aria-label="Eighth navbar example">
         <div class="container">
             <a class="navbar-brand" href="#">旅遊指南</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
@@ -52,7 +52,7 @@
                     </li>
                 </ul>
                 <form role="search" action="./src/controllers/search.php" method="GET" class="d-flex">
-                    <input class="form-control" type="search" placeholder="搜尋" aria-label="Search" name="search">
+                    <input class="form-control me-2 w-75" type="search" placeholder="搜尋" aria-label="Search" name="search">
                     <button class="btn btn-outline-success" type="submit">搜尋</button>
                 </form>
             </div>
