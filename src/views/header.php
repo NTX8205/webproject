@@ -61,9 +61,9 @@ session_start();
                 <ul class="drop-down">
                     <li>
                         <?php if (isset($_SESSION['userName'])) { ?>
-                        <a href="../api/user/login.php">登出</a>
+                        <a href="../../controllers/user/login.php">登出</a>
                         <?php } else { ?>
-                        <a href="../user/login.php">登入</a>
+                        <a href="../users/login.php">登入</a>
                         <?php } ?>
                     </li>
                     <li>
@@ -71,7 +71,7 @@ session_start();
                         <h5><?php echo $_SESSION['userName'] ?>
                         </h5>
                         <?php } else { ?>
-                        <a href="../user/register.php">註冊</a>
+                        <a href="../users/register.php">註冊</a>
                         <?php } ?>
                     </li>
                 </ul>

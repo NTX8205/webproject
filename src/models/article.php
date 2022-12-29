@@ -23,7 +23,7 @@ class Article
     public function addArticle($title, $content, $user_id)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("INSERT INTO articles(title, content, user_id) VALUES(?,?,?)");
+        $statement = $db->prepare("INSERT INTO articles(title, content, userID) VALUES(?,?,?)");
         $statement->execute([$title, $content, $user_id]);
         return $statement;
     }
@@ -31,7 +31,7 @@ class Article
     public function editArticle($id)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("SELECT * FROM articles WHERE id=?");
+        $statement = $db->prepare("SELECT * FROM articles WHERE articleID=?");
         $statement->execute([$id]);
         return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
@@ -39,7 +39,7 @@ class Article
     public function viewArticle($id)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("SELECT * FROM articles WHERE id=?");
+        $statement = $db->prepare("SELECT * FROM articles WHERE articleID=?");
         $statement->execute([$id]);
         return $statement->fetch(PDO::FETCH_ASSOC);
     }
@@ -47,7 +47,7 @@ class Article
     public function updateArticle($id, $title, $content)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("UPDATE articles SET title =? ,content=? WHERE id=?");
+        $statement = $db->prepare("UPDATE articles SET title =? ,content=? WHERE articleID=?");
         $statement->execute([$title,$content,$id]);
         return $statement;
     }
@@ -55,7 +55,7 @@ class Article
     public function deleteArticle($id)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("DELETE FROM articles WHERE id= ?");
+        $statement = $db->prepare("DELETE FROM articles WHERE articleID= ?");
         $statement->execute([$id]);
         return $statement;
     }

@@ -25,7 +25,7 @@ class User
     public function userLogin($email)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("SELECT * FROM users WHERE email=?");
+        $statement = $db->prepare("SELECT * FROM user WHERE email=?");
         $statement->execute([$email]);
         return $statement->fetch(PDO::FETCH_ASSOC);
     }
@@ -33,14 +33,14 @@ class User
     public function userRegister($user, $email, $password)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("INSERT INTO users(name, email, password) VALUE (?,?,?)");
+        $statement = $db->prepare("INSERT INTO user(userName, email, password) VALUE (?,?,?)");
         $statement->execute([$user, $email, $password]);
         return $statement;
     }
     public function findUser($userName)
     {
         $db = $this->dbConnect();
-        $statement = $db->prepare("SELECT * FROM users WHERE name=?");
+        $statement = $db->prepare("SELECT * FROM user WHERE userName=?");
         $statement->execute([$userName]);
         return $statement->fetch(PDO::FETCH_ASSOC);
     }

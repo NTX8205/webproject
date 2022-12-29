@@ -1,12 +1,12 @@
 <?php
-include("../webproject/src/Config/header.php");
+include("../header.php");
 ?>
 <title>新增留言</title>
 <?php if (isset($_SESSION['userName'])) { ?>
     <div class="container">
         <div class="box">
             <h2 style="text-align:center;">新增留言</h2>
-            <form action="../api/article/create.php" method="post">
+            <form action="../../controllers/article/create.php" method="post">
                 <div class="mb-3">
                     <label for="title" class="form-label">標題 : </label>
                     <input type="text" class="form-control" id="title" name="title" value="" placeholder="輸入標題" required>
@@ -21,7 +21,7 @@ include("../webproject/src/Config/header.php");
         </div>
     </div>
 <?php } else { ?>
-    <meta http-equiv="refresh" content="0;url=../user/login.php">
+    <meta http-equiv="refresh" content="0;url=../users/login.php">
 <?php } ?>
 </body>
 

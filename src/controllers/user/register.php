@@ -10,4 +10,4 @@ $password = $_POST['password'];
 $user = $_POST['userName'];
 $password_hash = password_hash($password, PASSWORD_BCRYPT);
 $statement = $users->userRegister($user, $email, $password_hash);
-header('Location: ../../../src/user/login.php');
+header('Location: ../../../src/views/users/login.php');
