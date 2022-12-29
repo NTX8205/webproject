@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +17,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="./assets/CSS/index.css">
-    <link rel="stylesheet" href="./assets/CSS/conduct.css">
+    <link rel="stylesheet" href="../../assets/CSS/index.css">
+    <link rel="stylesheet" href="../../assets/CSS/conduct.css">
+    <link rel="stylesheet" href="../../assets/CSS/user.css">
+    <link rel="stylesheet" href="../../assets/CSS/practice.css">
 </head>
 
 <body>
@@ -39,9 +46,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./src/photoshare/index.php">旅遊相片</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link">留言板</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
                             aria-expanded="false">景點</a>
@@ -54,6 +58,23 @@
                         </ul>
                     </li>
                 </ul>
+                <ul class="drop-down">
+                    <li>
+                        <?php if (isset($_SESSION['userName'])) { ?>
+                        <a href="../api/user/login.php">登出</a>
+                        <?php } else { ?>
+                        <a href="../user/login.php">登入</a>
+                        <?php } ?>
+                    </li>
+                    <li>
+                        <?php if (isset($_SESSION['userName'])) { ?>
+                        <h5><?php echo $_SESSION['userName'] ?>
+                        </h5>
+                        <?php } else { ?>
+                        <a href="../user/register.php">註冊</a>
+                        <?php } ?>
+                    </li>
+                </ul>
                 <form role="search" action="./src/controllers/search.php" method="GET" class="d-flex">
                     <input class="form-control me-2 w-75" type="search" placeholder="搜尋" aria-label="Search"
                         name="search">
@@ -62,47 +83,3 @@
             </div>
         </div>
     </nav>
-    <div class="row area">
-        <div class="col-lg-6">
-            <!--這裡要放圖-->
-        </div>
-        <div class="col-lg-6">
-            <div class="viewname">
-                <!--景點名稱-->
-            </div>
-            <div class="viewintroduce">
-                <!--景點介紹-->
-            </div>
-        </div>
-    </div>
-    <div class="area">
-        <table>
-            <tbody>
-                <tr>
-                    <th class="mytbody ttitle">按讚數</th>
-                    <th class="mytbody num"></th>
-                    <th class="mytbody ttitle">不喜歡數</th>
-                    <th class="mytbody num"></th>
-                    <th class="mytbody ttitle">評價</th>
-                    <th class="mytbody num"></th>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="area">
-        <table>
-            <thead class="mythead2">
-                <tr>
-                    <th>評論區</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <!--評論-->
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
-
-</html>
