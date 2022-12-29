@@ -80,7 +80,7 @@
         </div>
     </div>
     <footer>
-        Copyright ©
+        Copyright © 益嘉推薦旅遊景點
         <?php echo date("Y-m-d") ?> All Rights Reserved.<br>
     </footer>
 </body>
